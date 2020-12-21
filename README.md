@@ -1,5 +1,5 @@
 Steps to run:
-- Open Server.java,GUI.java
+-Open Server.java,GUI.java
 -Change File path to suitable one on line 103 of client.java,this decides where the client sharede
 directories are created..
 -Run the Server class first-saved as Server.java
