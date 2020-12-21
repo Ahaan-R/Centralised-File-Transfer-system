@@ -1,3 +1,11 @@
+Project Description:
+
+A distributed file service consists of a server and client processes. Each client process will connect to the server over a socket. The server should be able to handle all the clients concurrently.
+In this project, Clients will designate a directory on their system to serve as their shared directory. Any file placed into that directory will automatically be uploaded to the server. Once the server receives the new file, it will send that file to the remaining clients. Clients will place the received file into their shared directory.
+All clients can add files to their shared directories.
+
+
+
 Steps to run:
     Open Server.java,GUI.java
     Change File path to suitable one on line 103 of client.java,this decides where the client sharede
